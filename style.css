@@ -2,13 +2,22 @@
     background: plum;
 
 }
+.categoria {
+}
+
 .product-row{
     margin-top: 200px;
     margin-bottom: 200px;
 }
-
 .product{
-    object-fit: cover;
-    max-width:500px;
-    max-height:500px;
+}
+
+.product-img-container {
+    width: 500px;
+    height: 500px;
+}
+.product-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
