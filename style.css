@@ -1,4 +1,14 @@
-site-header {
-    background-color: chocolate;
+.site-header {
+    background: plum;
 
+}
+.product-row{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.product{
+    object-fit: cover;
+    max-width:500px;
+    max-height:500px;
 }

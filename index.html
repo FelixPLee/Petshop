@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- linkando bootstrap e style.css -->
-        <link rel="stylesheet" type="text/css" href="dist/bootstrap-5.2.3-dist/css/bootstrap.css"
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="dist/bootstrap-5.2.3-dist/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="./style.css">
         <!--linking scripts-->
         <script src="dist/bootstrap-5.2.3-dist/js/bootstrap.bundle.js"></script>
         <script type="module" src="./script.js"></script>
@@ -15,14 +15,14 @@
         <h1>Petweb</h1>
         <nav>
             <!-- placeholder links -->
-            <ul>
-                <li><a href="./saibaMais.html">Quem somos</a></li>
-                <li><a href="./produtos.html">produtos</a></li>
-                <li><a href="./serviços.html">serviços</a></li>
-                <li><a href="./carrinho.html">carrinho</a></li>
-                <li><a href="./login.html">entrar</a></li>
-                <li><a href="./cadastro.html">cadastrar</a></li>
-            </ul>
+                <div class="row">
+                    <div class="col"><a href="./saibaMais.html">Quem somos</a></div>
+                    <div class="col"><a href="./produtos.html">produtos</a></div>
+                    <div class="col"><a href="./serviços.html">serviços</a></div>
+                    <div class="col"><a href="./carrinho.html">carrinho</a></div>
+                    <div class="col"><a href="./login.html">entrar</a></div>
+                    <div class="col"><a href="./cadastro.html">cadastrar</a></div>
+                </div>
         </nav>
     </div>
     <!-- Links para login e cadastro -->
@@ -35,16 +35,16 @@
     <div>
         <h2>Produtos em destaque</h2>
         <!-- categorias de produtos -->
-        <div>
+        <div class="row">
             <h3>Alimentos</h3>
-            <div>
+            <div class="col product">
                 <h4>Ração Emu Australiano Ema Avestruz Ratitas Peletizada 20Kg</h4>
                 <img src="./img/racaoDeEmuAustraliano.webp" alt="Ração de Aves">
                 <p>Ração indicada para aves de grande porte como Avestruz.</p>
                 <p>R$ 399,90</p>
                 <button>Adicionar ao carrinho</button>
             </div>
-            <div>
+            <div class="col product">
                 <h4>Ração para Gatos Adultos Golden Salmão 3Kg</h4>
                 <img src="./img/racaoGato.webp" alt="Ração para Gatos">
                 <p>Ração indicada para gatos Adultos Alimento Seco.</p>
@@ -52,16 +52,16 @@
                 <button>Adicionar ao carrinho</button>
             </div>
         </div>
-        <div>
+        <div class="row">
             <h3>Brinquedos</h3>
-            <div>
+            <div class="col product">
                 <h4>Aranhador para Gatos</h4>
                 <img src="./img/brinquedoGato.webp" alt="Brinquedo para Gatos">
                 <p>Aranhador com plataforma para descanso e brinquedo pendurado.</p>
                 <p>R$ 49,90</p>
                 <button>Adicionar ao carrinho</button>
             </div>
-            <div>
+            <div class="col product">
                 <h4>Mordedor de Amarelo de Pato</h4>
                 <img src="./img/brinquedoCachorro.webp" alt="Brinquedo para Cães">
                 <p>Brinquedo Mordedor De Pelúcia Pato Amarelo Grande Com Apito</p>
@@ -69,16 +69,16 @@
                 <button>Adicionar ao carrinho</button>
             </div>
         </div>
-        <div>
+        <div class="row">
             <h3>Farmácia</h3>
-            <div>
+            <div class="col product">
                 <h4>Suplemento para Cavalos</h4>
                 <img src="./img/bombaPraCavalo.webp" alt="Equiforte boldenona">
                 <p>Suplemento Crescimento Pois Massa -bold Cavalos Potros 50ml</p>
                 <p>R$ 89,90</p>
                 <button>Adicionar ao carrinho</button>
             </div>
-            <div>
+            <div class="col product">
                 <h4>Vermifugo Bovino</h4>
                 <img src="./img/vermifugoBovino.webp" alt="Vermifugo Bovino">
                 <p>Vermifugo Bovino Carrapatos Moscas Chifre Verme Berne 2,5kg</p>
