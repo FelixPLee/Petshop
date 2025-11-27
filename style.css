@@ -4,6 +4,7 @@ body {
 }
 
 .nav-bar {
+    height: 30px;
     background-color: #A05CED;
 }
 
@@ -40,6 +41,15 @@ body {
     background: linear-gradient(1deg, rgba(61, 0, 89, 1) 14%, rgba(185, 0, 252, 1) 100%);
 }
 
-.carrousel-inner{
-    height: 200px;
+
+#meuCarrossel .carousel-item img {
+    height: 500px;
+    object-fit: cover;
 }
+
+@media (max-width: 768px) {
+    #meuCarrossel .carousel-item img {
+        height: 300px;
+    }
+}
+
