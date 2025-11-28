@@ -19,7 +19,7 @@ const getUserinfo = function() {
 }
 
 // Seleciona o elemento DOM
-const myCarouselElement = document.querySelector('#meuCarrossel');
+const myCarouselElement = document.querySelector('#carrosselBaner');
 
 // Inicializa com opções customizadas
 const carousel = new bootstrap.Carousel(myCarouselElement, {

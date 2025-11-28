@@ -13,63 +13,38 @@
     <!-- Titulo -->
     <div class="container-fluid site-header">
         <h1 class="font1">Petweb</h1>
-        
     </div>
     <!-- Links para login e cadastro -->
+    <div class="nav-bar container-fluid">
+        <!-- placeholder links -->
+        <div class="row justify-content-end">
+            <div class="col-1"><a href="./saibaMais.html">Quem somos</a></div>
+            <div class="col-1"><a href="./produtos.html">produtos</a></div>
+            <div class="col-1"><a href="./serviços.html">serviços</a></div>
+            <div class="col-1"><a href="./carrinho.html">carrinho</a></div>
+            <div class="col-1">
+                <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    Entrar
+                </button>
+            </div>
+            <div class="col-1">
+                <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#registerModal">
+                    Cadastrar
+                </button>
+            </div>
+        </div>
+    </div>
 </head>
 <body>
-    <div class="nav-bar container-fluid">
-            <!-- placeholder links -->
-            <div class="row justify-content-end">
-                <div class="col-1"><a href="./saibaMais.html">Quem somos</a></div>
-                <div class="col-1"><a href="./produtos.html">produtos</a></div>
-                <div class="col-1"><a href="./serviços.html">serviços</a></div>
-                <div class="col-1"><a href="./carrinho.html">carrinho</a></div>
-                <div class="col-1">
-                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#loginModal">
-                        Entrar
-                    </button>
-                </div>
-                <div class="col-1">
-                    <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#registerModal">
-                        Cadastrar
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- Painel inicial -->
-        <!--
-        <div class="imagem carrousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="./img/leoLeclerc.jpg" alt="Leo Leclerc">
-                </div>
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="./img/afolou.jfif" alt="Pet Shop">
-                </div>
-                <div class="carousel-item active">
-                <img class="d-block w-100" src="./img/BOI-NELORE-2.jpg" alt="Veterinário">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-    -->
-    <div id="meuCarrossel" class="carousel slide" data-bs-ride="carousel">
+    <div id="carrosselBaner" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carrosselBaner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carrosselBaner" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carrosselBaner" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-            <img src="./img/leozin.jpg" class="d-block w-100" alt="leozin
+            <img src="./img/leozin.jpg" class="d-block w-100" alt="leozin~">
             <div class="carousel-caption d-none d-md-block">
             </div>
         </div>
@@ -82,11 +57,11 @@
             <img src="./img/BOI-NELORE-2.jpg" class="d-block w-100" alt="Boi Nelore">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrosselBaner" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Anterior</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#meuCarrossel" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carrosselBaner" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Próximo</span>
         </button>
