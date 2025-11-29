@@ -1,29 +1,24 @@
 
 .site-header {
-    background: #2E4600;
-    background: linear-gradient(90deg, rgba(46, 70, 0, 1) 59%, rgba(162, 91, 40, 1) 100%);
     height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    background-color: white;
 
+}
+.logo img{
+    height: 75px;
+    width: auto;
+}
 .font1{
     font-family: sans-serif;
-    color: #ffeebc;
 }
 .font2{
     font-family: cursive;
     color: #836e2e;
 }
 
-.nav-bar {
-    height: 35px;
-    background-color: #2a6800;
-}
-
 body {
-    background-color: #93C572;
+    background: #048ABF;
+    background: linear-gradient(90deg, rgba(4, 138, 191, 1) 0%, rgba(4, 157, 191, 1) 50%, rgba(4, 138, 191, 1) 100%);
 }
 #carrosselBaner .carousel-item img {
     height: 500px;
@@ -49,8 +44,8 @@ body {
     object-fit: contain;
 }
 .site-footer {
-    background: #3d0059;
-    background: linear-gradient(1deg, rgba(61, 0, 89, 1) 14%, rgba(185, 0, 252, 1) 100%);
+    background: #049DBF;
+    background: linear-gradient(0deg, rgba(4, 157, 191, 1) 0%, rgba(4, 138, 191, 1) 100%);
 }
 
 
